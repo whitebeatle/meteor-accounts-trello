@@ -1,3 +1,5 @@
+// https://github.com/RobertLowe/meteor-accounts-trello/blob/master/trello_client.js
+// last updated by satya pramodh on nov 30
 Trello = {};
 
 // Request Trello credentials for the user

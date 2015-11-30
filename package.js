@@ -1,15 +1,13 @@
 Package.describe({
-  summary: "Login service for Trello accounts",
+  summary: "Login service for Trello accounts, forked from https://github.com/RobertLowe/meteor-accounts-trello",
   // Version number.
-  version: "0.2.0",
+  version: "0.2.1",
   // Optional.  Default is package directory name.
-  name: "robertlowe:accounts-trello",
-  // Optional github URL to your source repository.
-  git: "https://github.com/robertlowe/meteor-accounts-trello.git",
+  name: "pramodh:accounts-trello",
 });
 
 Package.on_use(function(api) {
-  api.versionsFrom('1.2.0.2');
+  api.versionsFrom('1.1.0.3');
 
   // trello
   api.use('oauth1', ['client', 'server']);
